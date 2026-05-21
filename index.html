@@ -1,60 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>História do Curso — 20 Anos Ciência da Computação</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-	<!-- Seção: Linha do Tempo (Sua Parte do Projeto de Extensão) -->
-	<section id="timeline" class="timeline">
-		<div class="timeline__container">
-			<header class="timeline__header">
-				<h1 class="timeline__title">20 anos do Curso de Ciência da Computação</h1>
-				<p class="timeline__subtitle">Marcos importantes que contam nossa história e evolução na Faculdade R. Sá</p>
-			</header>
-
-			<ol class="timeline__list" aria-label="Linha do tempo do curso de Ciência da Computação">
-				<li class="timeline__item" data-year="2006">
-					<div class="timeline__marker" aria-hidden="true"></div>
-					<time class="timeline__year">2006</time>
-					<div class="timeline__content">
-						<h2 class="timeline__event-title">Fundação e Implantação</h2>
-						<p class="timeline__event-desc">Criação do curso de Ciência da Computação junto com o nascimento da IESRSA, iniciando a formação tecnológica na região de Picos.</p>
-					</div>
-				</li>
-
-				<li class="timeline__item" data-year="2010">
-					<div class="timeline__marker" aria-hidden="true"></div>
-					<time class="timeline__year">2010</time>
-					<div class="timeline__content">
-						<h2 class="timeline__event-title">Primeira Turma de Egressos</h2>
-						<p class="timeline__event-desc">Formatura dos primeiros bacharéis em computação, dando início à inserção de profissionais qualificados no mercado de TI regional.</p>
-					</div>
-				</li>
-
-				<li class="timeline__item" data-year="2012">
-					<div class="timeline__marker" aria-hidden="true"></div>
-					<time class="timeline__year">2012</time>
-					<div class="timeline__content">
-						<h2 class="timeline__event-title">Reconhecimento pelo MEC</h2>
-						<p class="timeline__event-desc">Publicação da portaria de reconhecimento do curso pelo Ministério da Educação (MEC), consolidando a excelência acadêmica nacional.</p>
-					</div>
-				</li>
-
-				<li class="timeline__item" data-year="2026">
-					<div class="timeline__marker" aria-hidden="true"></div>
-					<time class="timeline__year">2026</time>
-					<div class="timeline__content">
-						<h2 class="timeline__event-title">Celebração de 20 Anos</h2>
-						<p class="timeline__event-desc">Comemoração das duas décadas do curso com o projeto de extensão, destacando parcerias de pesquisa e egressos liderando a área de tecnologia.</p>
-					</div>
-				</li>
-			</ol>
-		</div>
-	</section>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeline do Curso de Ciência da Computação - Faculdade R. Sá</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+        color: #222;
+      }
+      .timeline {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+      .timeline h1 {
+        text-align: center;
+        margin-bottom: 24px;
+      }
+      .timeline-list {
+        list-style: none;
+        padding: 0;
+      }
+      .timeline-item {
+        background: #fff;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 18px 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      }
+      .timeline-item time {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: #00539c;
+      }
+      .timeline-item h2 {
+        margin: 0 0 8px;
+        font-size: 1.1rem;
+      }
+      .timeline-item p {
+        margin: 0;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="timeline">
+      <h1>Timeline do Curso de Ciência da Computação</h1>
+      <ul class="timeline-list">
+        <li class="timeline-item year-2006">
+          <time datetime="2006">2006</time>
+          <h2>Início da jornada</h2>
+          <p>O curso é lançado com turmas iniciais e laboratório básico para os primeiros estudantes.</p>
+        </li>
+        <li class="timeline-item year-2007">
+          <time datetime="2007">2007</time>
+          <h2>Primeira grade curricular</h2>
+          <p>Nova grade curricular é implementada com disciplinas fundamentais em programação e redes.</p>
+        </li>
+        <li class="timeline-item year-2008">
+          <time datetime="2008">2008</time>
+          <h2>Expansão do corpo docente</h2>
+          <p>O corpo docente cresce para atender à demanda e fortalecer a formação acadêmica.</p>
+        </li>
+        <li class="timeline-item year-2009">
+          <time datetime="2009">2009</time>
+          <h2>Laboratório renovado</h2>
+          <p>O laboratório de informática recebe novos computadores e equipamentos de rede.</p>
+        </li>
+        <li class="timeline-item year-2010">
+          <time datetime="2010">2010</time>
+          <h2>Primeira turma formada</h2>
+          <p>Os primeiros formandos entram no mercado com projetos de software e estágios.</p>
+        </li>
+        <li class="timeline-item year-2011">
+          <time datetime="2011">2011</time>
+          <h2>Foco em mercado</h2>
+          <p>O curso passa a oferecer disciplinas de empreendedorismo e orientação profissional.</p>
+        </li>
+        <li class="timeline-item year-2012">
+          <time datetime="2012">2012</time>
+          <h2>Parcerias institucionais</h2>
+          <p>Novas parcerias com empresas locais ampliam oportunidades de estágio e pesquisa.</p>
+        </li>
+        <li class="timeline-item year-2013">
+          <time datetime="2013">2013</time>
+          <h2>Atualização de laboratórios</h2>
+          <p>Os laboratórios incorporam novas ferramentas para desenvolvimento e testes.</p>
+        </li>
+        <li class="timeline-item year-2014">
+          <time datetime="2014">2014</time>
+          <h2>Disciplinas avançadas</h2>
+          <p>Novas disciplinas em banco de dados e engenharia de software são adicionadas.</p>
+        </li>
+        <li class="timeline-item year-2015">
+          <time datetime="2015">2015</time>
+          <h2>Eventos acadêmicos</h2>
+          <p>O curso realiza seminários e feiras de tecnologia para integrar alunos e mercado.</p>
+        </li>
+        <li class="timeline-item year-2016">
+          <time datetime="2016">2016</time>
+          <h2>Módulo de segurança</h2>
+          <p>Uma disciplina de segurança da informação passa a ser obrigatória no currículo.</p>
+        </li>
+        <li class="timeline-item year-2017">
+          <time datetime="2017">2017</time>
+          <h2>Ambiente digital</h2>
+          <p>Plataformas de ensino online são integradas para agilizar o aprendizado dos alunos.</p>
+        </li>
+        <li class="timeline-item year-2018">
+          <time datetime="2018">2018</time>
+          <h2>Novas oportunidades</h2>
+          <p>O mercado local demanda mais desenvolvedores e as vagas de estágios aumentam.</p>
+        </li>
+        <li class="timeline-item year-2019">
+          <time datetime="2019">2019</time>
+          <h2>Evolução curricular</h2>
+          <p>O curso atualiza a grade com disciplinas de dados e prática em projetos colaborativos.</p>
+        </li>
+        <li class="timeline-item year-2020">
+          <time datetime="2020">2020</time>
+          <h2>Adaptação digital</h2>
+          <p>A pandemia acelera o ensino remoto e reforça o uso de tecnologias educacionais.</p>
+        </li>
+        <li class="timeline-item year-2021">
+          <time datetime="2021">2021</time>
+          <h2>Foco em inteligência artificial</h2>
+          <p>Introdução de disciplinas iniciais de IA e machine learning para ampliar competências.</p>
+        </li>
+        <li class="timeline-item year-2022">
+          <time datetime="2022">2022</time>
+          <h2>Novas formações</h2>
+          <p>O curso fortalece a formação com projetos práticos e laboratórios de inovação.</p>
+        </li>
+        <li class="timeline-item year-2023">
+          <time datetime="2023">2023</time>
+          <h2>Maior integração</h2>
+          <p>Integração entre professores e empresas cria oportunidades reais para alunos formandos.</p>
+        </li>
+        <li class="timeline-item year-2024">
+          <time datetime="2024">2024</time>
+          <h2>Inteligência aplicada</h2>
+          <p>Os alunos desenvolvem projetos com IA aplicada a negócios e serviços comunitários.</p>
+        </li>
+        <li class="timeline-item year-2025">
+          <time datetime="2025">2025</time>
+          <h2>Expansão de mercado</h2>
+          <p>Novas parcerias com empresas internacionais ampliam o alcance de estágios e empregos.</p>
+        </li>
+        <li class="timeline-item year-2026">
+          <time datetime="2026">2026</time>
+          <h2>Marco de duas décadas</h2>
+          <p>O curso celebra 20 anos com uma geração de formados preparada para desafios tecnológicos.</p>
+        </li>
+      </ul>
+    </main>
+  </body>
 </html>
