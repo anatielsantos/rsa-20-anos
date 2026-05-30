@@ -8,4 +8,4 @@
 #### Produto Final do Projeto
 
 #### Alunos Envolvidos
-Colocar nome com links para Linkedin e Github
+Colocar nome com links para Linkedin e Github.
