@@ -109,5 +109,4 @@ Contar, registrar e divulgar a história dos 20 anos do curso de Ciência da Com
 | Lucas de Sousa Leal | https://www.linkedin.com/in/lucas-leal-5163b1411 | lucasdsl07
 | Luís Sérgio da Silva Lourenço | 
 | Renato
-| Vitória Maria de Carvalho Luz | https://www.linkedin.com/in/vitória-maria-carvalho-026359411 | Vitória-Carvalho09
-| 
+| Vitória Maria de Carvalho Luz | https://www.linkedin.com/in/vitória-maria-carvalho-026359411 | Vitória-Carvalho09 |
