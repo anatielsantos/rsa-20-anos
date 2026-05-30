@@ -536,3 +536,58 @@ nav a:hover{
 
 }
 
+/* EVENTOS EM FORMATO SLIDER */
+
+#ciencia .timeline-slider{
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+#ciencia .timeline-track{
+  display:flex;
+  gap:20px;
+  overflow-x:hidden;
+  scroll-behavior:smooth;
+  width:100%;
+}
+
+#ciencia .timeline-card{
+  min-width:380px;
+  max-width:380px;
+
+  min-height:200px;
+
+  flex-shrink:0;
+
+  white-space:normal;
+  overflow:visible;
+}
+
+#ciencia .prev,
+#ciencia .next{
+  background:#071b36;
+  color:white;
+  border:none;
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  cursor:pointer;
+  font-size:1.2rem;
+  transition:.3s;
+}
+
+#ciencia .prev:hover,
+#ciencia .next:hover{
+  background:#ffb703;
+  color:#071b36;
+}
+
+@media(max-width:900px){
+
+  #ciencia .timeline-card{
+    min-width:100%;
+  }
+
+}
