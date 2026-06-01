@@ -97,3 +97,33 @@ cards.forEach(card => {
   observer.observe(card);
 
 });
+
+function abrirModal(imagem, titulo, descricao){
+
+  document.getElementById("modalMemoria").style.display = "block";
+
+  document.getElementById("modalImagem").src = imagem;
+
+  document.getElementById("modalTitulo").innerText = titulo;
+
+  document.getElementById("modalDescricao").innerText = descricao;
+
+}
+
+function fecharModal(){
+
+  document.getElementById("modalMemoria").style.display = "none";
+
+}
+
+window.onclick = function(event){
+
+  const modal = document.getElementById("modalMemoria");
+
+  if(event.target === modal){
+
+    modal.style.display = "none";
+
+  }
+
+}
