@@ -382,37 +382,57 @@
 
   <!-- EGRESSOS -->
 
-  <section class="section" id="egressos">
+ <!-- EGRESSOS -->
 
-    <h2 class="section-title">
-      Onde Estão Nossos Egressos?
-    </h2>
+<section class="section" id="egressos">
 
-    <div class="cards">
+  <h2 class="section-title">
+    Onde Estão Nossos Egressos?
+  </h2>
 
-      <div class="card">
+  <div class="timeline-slider">
 
+    <button class="prev">&#10094;</button>
+
+    <div class="timeline-track">
+
+      <div class="timeline-card">
         <h3>Nome do Egresso</h3>
-
         <p>
           Adicionar trajetória profissional futuramente.
         </p>
-
       </div>
 
-      <div class="card">
-
+      <div class="timeline-card">
         <h3>Monique de Moura Leal</h3>
-
         <p>
           Adicionar informações de atuação no mercado.
         </p>
+      </div>
 
+      <div class="timeline-card">
+        <h3>Egresso 03</h3>
+        <p>
+          Espaço reservado para inserir informações profissionais,
+          empresa, cargo e trajetória.
+        </p>
+      </div>
+
+      <div class="timeline-card">
+        <h3>Egresso 04</h3>
+        <p>
+          Espaço reservado para inserir informações profissionais,
+          empresa, cargo e trajetória.
+        </p>
       </div>
 
     </div>
 
-  </section>
+    <button class="next">&#10095;</button>
+
+  </div>
+
+</section>
 
   <!-- PROJETOS -->
 
@@ -544,7 +564,6 @@
 
 </section>
 
-
  <!-- MEMÓRIAS -->
 
 <section class="section dark-section" id="memorias">
@@ -555,20 +574,40 @@
 
   <div class="gallery">
 
-    <div class="gallery-item">
-      <img src="1000161696.jpg" alt="Foto histórica 1">
+    <div class="gallery-item"
+         onclick="abrirModal(
+         '1000161696.jpg',
+         'VII Semana da Computação',
+         'Evento acadêmico voltado à integração entre estudantes, professores e profissionais da área de tecnologia, promovendo palestras, debates e troca de experiências.')">
+
+      <img src="1000161696.jpg" alt="">
     </div>
 
-    <div class="gallery-item">
-      <img src="1000161697.jpg" alt="Foto histórica 2">
+    <div class="gallery-item"
+         onclick="abrirModal(
+         '1000161697.jpg',
+         'Palestra de Estudantes da Computação em Academia de Saúde',
+         'Ação realizada por estudantes do curso com foco em educação, tecnologia e conscientização junto à comunidade.')">
+
+      <img src="1000161697.jpg" alt="">
     </div>
 
-    <div class="gallery-item">
-      <img src="1000161698.jpg" alt="Foto histórica 3">
+    <div class="gallery-item"
+         onclick="abrirModal(
+         '1000161698.jpg',
+         'Segurança Digital para Todos',
+         'Projeto de extensão voltado à conscientização da população sobre segurança digital, privacidade e uso seguro da internet.')">
+
+      <img src="1000161698.jpg" alt="">
     </div>
 
-    <div class="gallery-item">
-      <img src="1000161699.jpg" alt="Foto histórica 4">
+    <div class="gallery-item"
+         onclick="abrirModal(
+         '1000161699.jpg',
+         'VII Semana da Computação',
+         'Registro de atividades desenvolvidas durante a Semana da Computação da Faculdade R.Sá.')">
+
+      <img src="1000161699.jpg" alt="">
     </div>
 
   </div>
@@ -649,6 +688,32 @@
   </div>
 
 </section>
+
+<div id="modalMemoria" class="modal">
+
+  <div class="modal-content">
+
+    <span class="fechar" onclick="fecharModal()">
+      &times;
+    </span>
+
+    <div class="modal-body">
+
+      <img id="modalImagem" src="" alt="">
+
+      <div class="modal-texto">
+
+        <h3 id="modalTitulo"></h3>
+
+        <p id="modalDescricao"></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
 </body>
 
