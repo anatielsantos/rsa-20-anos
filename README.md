@@ -95,17 +95,29 @@ Contar, registrar e divulgar a história dos 20 anos do curso de Ciência da Com
 - Pesquisa aplicada
 - Desenvolvimento de sistemas simples para o projeto
 
-### 8. Alunos Envolvidos
+### 8. Equipe de Desenvolvimento
 [Anny Kelly Sousa Pereira](https://www.linkedin.com/in/anny-kelly-8b7672410) 
+
 [Fabrício Araújo Rocha](https://br.linkedin.com/in/fabr%C3%ADcio-ara%C3%BAjo-19b80b369) 
+
 [Gleydson Dayon Gomes de Sousa](https://www.linkedin.com/in/gleydson-dayon-a4995a412) 
+
 [Izaías de Araújo Dias](https://www.linkedin.com/in/izaias-araújo-dias-9a4363349) 
+
 [João Augusto Carvalho Moura](https://www.linkedin.com/in/joao-augusto-carvalho-moura-b763ba411)
+
 [João Victor Pacheco Pinheiro](https://www.linkedin.com/in/joão-victor-90a920412) 
+
 [Kayo Ranniel Lustosa dos Santos](https://www.linkedin.com/in/kayo-lustosa-a243b5324) 
+
 [Levy Emanuel da Costa](https://www.linkedin.com/in/levy-costa-4395a0299) 
+
 [Lucas de Sousa Leal](https://www.linkedin.com/in/lucas-leal-5163b1411) 
+
 [Luís Sérgio da Silva Lourenço](https://www.linkedin.com/in/luis-sergio-da-silva-lourenco-978665412)
-[Renato Ribeiro da Costa Filho]
+
+[Renato Ribeiro da Costa Filho]()
+
 [Vitória Maria de Carvalho Luz](https://www.linkedin.com/in/vitória-maria-carvalho-026359411) 
-[Anatiel]
+
+[José Anatiel Gonçalves Santos Landim](https://www.linkedin.com/in/anatielsantos)
