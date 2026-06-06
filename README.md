@@ -96,17 +96,16 @@ Contar, registrar e divulgar a história dos 20 anos do curso de Ciência da Com
 - Desenvolvimento de sistemas simples para o projeto
 
 ### 8. Alunos Envolvidos
-| Nome | GitHub |
-| --- | --- |
-| [Anny Kelly Sousa Pereira](https://www.linkedin.com/in/anny-kelly-8b7672410) | anny-kelly |
-| [Fabrício Araújo Rocha](https://br.linkedin.com/in/fabr%C3%ADcio-ara%C3%BAjo-19b80b369) | fabricioznxx |
-| [Gleydson] 
-| [Izaías de Araújo Dias](https://www.linkedin.com/in/izaias-araújo-dias-9a4363349) | xizaias |
-| [João Augusto Carvalho Moura](https://www.linkedin.com/in/joao-augusto-carvalho-moura-b763ba411) | joaoaugustocm13 |
-| [João Victor Pacheco Pinheiro](https://www.linkedin.com/in/joão-victor-90a920412) | joaovictorpp162005-dev |
-| [Kayo]
-| [Levy Emanuel da Costa](https://www.linkedin.com/in/levy-costa-4395a0299) | lcosta1
-| [Lucas de Sousa Leal](https://www.linkedin.com/in/lucas-leal-5163b1411) | lucasdsl07
-| [Luís Sérgio da Silva Lourenço] | 
-| [Renato]
-| [Vitória Maria de Carvalho Luz](https://www.linkedin.com/in/vitória-maria-carvalho-026359411) | Vitória-Carvalho09 |
+[Anny Kelly Sousa Pereira](https://www.linkedin.com/in/anny-kelly-8b7672410) 
+[Fabrício Araújo Rocha](https://br.linkedin.com/in/fabr%C3%ADcio-ara%C3%BAjo-19b80b369) 
+[Gleydson Dayon Gomes de Sousa](https://www.linkedin.com/in/gleydson-dayon-a4995a412) 
+[Izaías de Araújo Dias](https://www.linkedin.com/in/izaias-araújo-dias-9a4363349) 
+[João Augusto Carvalho Moura](https://www.linkedin.com/in/joao-augusto-carvalho-moura-b763ba411)
+[João Victor Pacheco Pinheiro](https://www.linkedin.com/in/joão-victor-90a920412) 
+[Kayo Ranniel Lustosa dos Santos](https://www.linkedin.com/in/kayo-lustosa-a243b5324) 
+[Levy Emanuel da Costa](https://www.linkedin.com/in/levy-costa-4395a0299) 
+[Lucas de Sousa Leal](https://www.linkedin.com/in/lucas-leal-5163b1411) 
+[Luís Sérgio da Silva Lourenço](https://www.linkedin.com/in/luis-sergio-da-silva-lourenco-978665412)
+[Renato Ribeiro da Costa Filho]
+[Vitória Maria de Carvalho Luz](https://www.linkedin.com/in/vitória-maria-carvalho-026359411) 
+[Anatiel]
