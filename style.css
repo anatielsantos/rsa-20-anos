@@ -361,29 +361,34 @@ nav a:hover{
 /* GALERIA */
 
 .gallery{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  display:flex;
   gap:15px;
+  overflow-x:auto;
+  scroll-behavior:smooth;
+  padding:10px 0;
+}
+
+.gallery::-webkit-scrollbar{
+  height:8px;
 }
 
 .gallery-item{
-  height:180px;
-  background:#d9d9d9;
+  flex:0 0 300px;
+  height:250px;
   border-radius:12px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  color:#555;
-  font-weight:600;
-  font-size:0.9rem;
-}
-  .gallery-item img{
+  overflow:hidden;
+  cursor:pointer;
+
+.gallery-item img{
   width:100%;
-  height:100%;
+  height:250px;
   object-fit:cover;
-  border-radius:12px;
+  transition:0.4s;
 }
 
+.gallery-item:hover img{
+  transform:scale(1.05);
+}
 /* FUTURO */
 
 .future{
