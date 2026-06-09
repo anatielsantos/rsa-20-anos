@@ -379,7 +379,6 @@ nav a:hover{
   font-weight:600;
   font-size:0.9rem;
 }
-}
 /* FUTURO */
 
 .future{
@@ -685,4 +684,101 @@ nav a:hover{
   min-width:300px;
   max-width:300px;
   min-height:170px;
+}
+
+/* MEMÓRIAS EM SLIDER */
+
+#memorias .timeline-track{
+  display:flex;
+  gap:20px;
+  overflow-x:hidden;
+  scroll-behavior:smooth;
+  width:100%;
+}
+
+#memorias .gallery-item{
+  min-width:280px;
+  max-width:280px;
+  height:220px;
+
+  flex-shrink:0;
+
+  border-radius:15px;
+  overflow:hidden;
+
+  cursor:pointer;
+
+  box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+#memorias .gallery-item img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:.4s;
+}
+
+#memorias .gallery-item:hover img{
+  transform:scale(1.05);
+}
+
+@media(max-width:900px){
+
+  #memorias .gallery-item{
+    min-width:100%;
+    max-width:100%;
+  }
+
+}
+
+/* PROJETOS EM SLIDER */
+
+#projetos .timeline-track{
+  display:flex;
+  gap:20px;
+  overflow-x:hidden;
+  scroll-behavior:smooth;
+  width:100%;
+}
+
+#projetos .card{
+  min-width:380px;
+  max-width:380px;
+  flex-shrink:0;
+}
+
+@media(max-width:900px){
+
+  #projetos .card{
+    min-width:100%;
+    max-width:100%;
+  }
+
+}
+
+.pdf-area{
+  text-align:center;
+  padding:30px 10px;
+}
+
+.pdf-area p{
+  color:#fff;
+  margin-bottom:20px;
+  font-size:1rem;
+}
+
+.pdf-button{
+  display:inline-block;
+  background:#ffb703;
+  color:#111;
+  padding:12px 26px;
+  border-radius:10px;
+  font-weight:600;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.pdf-button:hover{
+  transform:translateY(-4px);
+  background:#ffd166;
 }
