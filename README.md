@@ -116,7 +116,7 @@ Contar, registrar e divulgar a história dos 20 anos do curso de Ciência da Com
 
 [Luís Sérgio da Silva Lourenço](https://www.linkedin.com/in/luis-sergio-da-silva-lourenco-978665412)
 
-[Renato Ribeiro da Costa Filho]()
+[Renato Ribeiro da Costa Filho](https://www.linkedin.com/in/renato-ribeiro-filho-66a810414)
 
 [Vitória Maria de Carvalho Luz](https://www.linkedin.com/in/vitória-maria-carvalho-026359411) 
 
