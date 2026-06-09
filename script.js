@@ -1,11 +1,13 @@
+// =====================================
 // SITE CARREGADO
+// =====================================
 
 console.log("Site 20 anos Faculdade R.Sá carregado com sucesso!");
 
 
-// =========================
+// =====================================
 // SCROLL SUAVE DO MENU
-// =========================
+// =====================================
 
 const links = document.querySelectorAll('nav a');
 
@@ -16,14 +18,17 @@ links.forEach(link => {
     e.preventDefault();
 
     const id = this.getAttribute('href');
-
     const section = document.querySelector(id);
 
-    // ALTURA DO HEADER
-    const headerHeight = document.querySelector('.header').offsetHeight;
+    if(!section) return;
 
-    // POSIÇÃO DA SEÇÃO
-    const sectionTop = section.offsetTop - headerHeight - 15;
+    const headerHeight =
+      document.querySelector('.header').offsetHeight;
+
+    const sectionTop =
+      section.getBoundingClientRect().top +
+      window.pageYOffset -
+      headerHeight - 10;
 
     window.scrollTo({
       top: sectionTop,
@@ -35,42 +40,44 @@ links.forEach(link => {
 });
 
 
-// =========================
-// SLIDER DA TIMELINE
-// =========================
+// =====================================
+// SLIDERS (História, Eventos e Egressos)
+// =====================================
 
 document.querySelectorAll('.timeline-slider').forEach(slider => {
 
   const track = slider.querySelector('.timeline-track');
-
   const next = slider.querySelector('.next');
-
   const prev = slider.querySelector('.prev');
 
-  next.addEventListener('click', () => {
+  if(track && next && prev){
 
-    track.scrollBy({
-      left: 500,
-      behavior: 'smooth'
+    next.addEventListener('click', () => {
+
+      track.scrollBy({
+        left: 500,
+        behavior: 'smooth'
+      });
+
     });
 
-  });
+    prev.addEventListener('click', () => {
 
-  prev.addEventListener('click', () => {
+      track.scrollBy({
+        left: -500,
+        behavior: 'smooth'
+      });
 
-    track.scrollBy({
-      left: -500,
-      behavior: 'smooth'
     });
 
-  });
+  }
 
 });
 
 
-// =========================
-// ANIMAÇÃO AO APARECER
-// =========================
+// =====================================
+// ANIMAÇÕES AO APARECER
+// =====================================
 
 const cards = document.querySelectorAll(
   '.timeline-card, .impact-card, .dev-card, .card'
@@ -84,10 +91,14 @@ const observer = new IntersectionObserver(entries => {
 
       entry.target.classList.add('show');
 
+      observer.unobserve(entry.target);
+
     }
 
   });
 
+},{
+  threshold: 0.15
 });
 
 cards.forEach(card => {
@@ -97,6 +108,11 @@ cards.forEach(card => {
   observer.observe(card);
 
 });
+
+
+// =====================================
+// MODAL DAS MEMÓRIAS
+// =====================================
 
 function abrirModal(imagem, titulo, descricao){
 
@@ -116,6 +132,11 @@ function fecharModal(){
 
 }
 
+
+// =====================================
+// FECHAR MODAL AO CLICAR FORA
+// =====================================
+
 window.onclick = function(event){
 
   const modal = document.getElementById("modalMemoria");
@@ -126,4 +147,19 @@ window.onclick = function(event){
 
   }
 
-}
+};
+
+
+// =====================================
+// FECHAR MODAL COM ESC
+// =====================================
+
+document.addEventListener('keydown', function(event){
+
+  if(event.key === 'Escape'){
+
+    fecharModal();
+
+  }
+
+});
