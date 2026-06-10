@@ -782,3 +782,29 @@ nav a:hover{
   transform:translateY(-4px);
   background:#ffd166;
 }
+
+/* HISTÓRIA COMPACTA */
+
+#historia .timeline-track{
+  display:flex;
+  gap:20px;
+  overflow-x:hidden;
+  scroll-behavior:smooth;
+  width:100%;
+}
+
+#historia .timeline-card{
+  min-width:300px;
+  max-width:300px;
+  min-height:180px;
+  flex-shrink:0;
+}
+
+@media(max-width:900px){
+
+  #historia .timeline-card{
+    min-width:100%;
+    max-width:100%;
+  }
+
+}
