@@ -808,3 +808,16 @@ nav a:hover{
   }
 
 }
+
+.hero-video img{
+  width:100%;
+  max-width:420px;
+  border-radius:16px;
+  cursor:pointer;
+  transition:.3s;
+  box-shadow:0 8px 25px rgba(0,0,0,.35);
+}
+
+.hero-video img:hover{
+  transform:scale(1.03);
+}
